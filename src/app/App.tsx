@@ -15,6 +15,7 @@ import { ShopPage } from './pages/ShopPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
 import { CartPage } from './pages/CartPage';
 import { LoginPage } from './pages/LoginPage';
+import { SignupPage } from './pages/SignupPage';
 import { SearchPage } from './pages/SearchPage';
 import { WishlistPage } from './pages/WishlistPage';
 import { CheckoutPage } from './pages/CheckoutPage';
@@ -101,6 +102,8 @@ export default function App() {
                 } />
 
                 <Route path="/login" element={<PageTransition><LoginPage /></PageTransition>} />
+                <Route path="/register" element={<PageTransition><SignupPage /></PageTransition>} />
+                <Route path="/signup" element={<PageTransition><SignupPage /></PageTransition>} />
                 <Route path="/admin/login" element={<PageTransition><AdminLoginPage /></PageTransition>} />
 
                 <Route path="/admin" element={admin(<AdminDashboard />)} />

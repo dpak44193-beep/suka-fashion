@@ -185,6 +185,13 @@ export const LoginPage: React.FC = () => {
               Sign up
             </Link>
           </p>
+
+          <p className="text-center mt-3 text-gray-600" style={{ fontFamily: 'var(--font-body)' }}>
+            Don&apos;t have an account?{' '}
+            <Link to="/register" className="text-[var(--primary)] font-semibold hover:underline">
+              Sign up
+            </Link>
+          </p>
         </div>
       </motion.div>
     </div>
